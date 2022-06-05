@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+html{
+    width: 1280px;
+}
+
+/* LANDING PAGE */
+.landing-logo{
+    display: flex;
+    justify-content: center;
+}
+
+#landing-hor-line{
+    width: 100%;
+}
+
+.landing-main{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+    gap: 100px;
+    /* width: 100%; */
+}
+
+.landing-main img{
+    height: 460px;
+    width: 500px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+.landing-main img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
