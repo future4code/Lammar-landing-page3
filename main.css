@@ -10,6 +10,7 @@ html{
 .landing-logo{
     display: flex;
     justify-content: center;
+    background-color: #7D1107;
 }
 
 #landing-hor-line{
@@ -42,11 +43,12 @@ html{
 .header-market-page{
     display: flex;
     height: 50px;
-    background-color: lightgray;
+    background-color: #7D1107;
 }
 
 .header-market-page img{
     padding-left: 20px;
+
 }
 
 .header-market-page p{
@@ -66,8 +68,8 @@ html{
 /* Aside bar */
 .market-aside{
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    flex-direction:column;
+    gap: 10px;
 }
 
 .market-categ-card{
@@ -104,6 +106,7 @@ html{
     text-align: center;
     padding-top: 50px;
     font-size: 30px;
+    font-family: chalkduste, fantasy;
 }
 
 .market-aside{
