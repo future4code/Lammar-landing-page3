@@ -21,7 +21,6 @@ html{
     justify-content: center;
     margin: 70px 0;
     gap: 100px;
-    /* width: 100%; */
 }
 
 .landing-main img{
@@ -35,4 +34,79 @@ html{
 .landing-main img:hover{
     transform: scale(1.1);
     transition: transform 0.2s;
+}
+
+
+/* PÁGINA MERCADO */
+.header-market-page{
+    display: flex;
+    height: 50px;
+    background-color: lightgray;
+}
+
+.header-market-page img{
+    padding-left: 20px;
+}
+
+.header-market-page p{
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.header-market-page ion-icon{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.market-categ-card{
+    width: 200px;
+}
+
+.market-categ-card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.market-aside{
+    margin: 5px;
+}
+
+.market-footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 300px;
+    /* transition: visibility 1s; */
+}
+
+.market-footer img{
+    height: 100%;
+    border-radius: 5px;
+}
+
+.gray-cover{
+    bottom: 304px;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    background-color: rgba(103, 112, 107, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.promo1:hover .gray-cover, .promo2:hover .gray-cover{
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.promotion p{
+    padding-top: 130px;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
 }
