@@ -129,7 +129,7 @@ html{
 }
 
 .market-card{
-    border: 3px outset wheat;
+    border: 3px outset rgb(247, 224, 205);
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
