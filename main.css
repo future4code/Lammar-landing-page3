@@ -37,7 +37,25 @@ html{
     transform: scale(1.1);
     transition: transform 0.2s;
 }
-
+.texto-main{
+    display: grid;
+    text-align: center;
+    font-family: cursive;
+    font-size:larger;
+    color: #7D1107;
+}
+.rodape-main{
+    display: flex;
+    height: 50px;
+    background-color: rgb(190, 185, 185);
+}
+.texto-rodape-main{
+    display: grid;
+    text-align:center;
+    font-family: cursive;
+    font-size:large;
+    color: #7D1107;
+}
 
 /* PÁGINA MERCADO */
 .market-page-body{
