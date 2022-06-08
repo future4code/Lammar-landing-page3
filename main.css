@@ -10,6 +10,7 @@ html{
 .landing-logo{
     display: flex;
     justify-content: center;
+    background-color: #7D1107;
 }
 
 #landing-hor-line{
@@ -24,7 +25,7 @@ html{
 }
 
 .landing-main img{
-    height: 460px;
+    height: 400px;
     width: 500px;
     border-radius: 10px;
     transform: scale(1);
@@ -42,11 +43,12 @@ html{
 .header-market-page{
     display: flex;
     height: 50px;
-    background-color: lightgray;
+    background-color: #7D1107;
 }
 
 .header-market-page img{
     padding-left: 20px;
+
 }
 
 .header-market-page p{
@@ -66,8 +68,8 @@ html{
 /* Barra lateral da página mercado */
 .market-aside{
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    flex-direction:column;
+    gap: 10px;
 }
 
 .market-categ-card{
@@ -104,6 +106,7 @@ html{
     text-align: center;
     padding-top: 50px;
     font-size: 30px;
+    font-family: chalkduste, fantasy;
 }
 
 .market-aside{
@@ -126,7 +129,7 @@ html{
 }
 
 .market-card{
-    border: 3px outset wheat;
+    border: 3px outset rgb(247, 224, 205);
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
