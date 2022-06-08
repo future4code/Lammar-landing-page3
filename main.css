@@ -3,6 +3,7 @@
 }
 
 html{
+    /* max-width: 1280px; */
     width: 1280px;
 }
 
@@ -39,24 +40,49 @@ html{
 
 
 /* PÁGINA MERCADO */
+.market-page-body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 70px 1fr 300px;
+    gap: 10px;
+}
+
 /* Header da Página Mercado */
 .header-market-page{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
     display: flex;
+    align-items: center;
+    background-color: rgba(135, 125, 90, 0.4);
+    border-radius: 3px;
+    border: rgba(135, 125, 90, 0.5) double 4px;
+}
+
+.header-market-page a{
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+
+.market-logo{
+    padding: 0 20px;
+    height: 100%;
     height: 50px;
     background-color: #7D1107;
 }
 
 .header-market-page img{
     padding-left: 20px;
-
 }
 
-.header-market-page p{
+.market-address{
     display: flex;
     align-self: center;
     margin-left: auto;
     padding: 40px;
     font-size: 20px;
+    text-decoration: none;
+    color: rgb(135, 125, 90);
 }
 
 .header-market-page ion-icon{
@@ -67,30 +93,31 @@ html{
 
 /* Barra lateral da página mercado */
 .market-aside{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     gap: 10px;
 }
 
 .market-categ-card{
-    width: 200px;
-    height: 140px;
+    height: 145px;
 }
 
-.market-card-gray-cover{
-    background-color: rgba(103, 112, 107, 0.8);
+.market-card-mask{
+    background-color: rgba(135, 125, 90, 0.8);
     height: 100%;
     position: relative;
-    bottom: 145px;
+    bottom: 149px;
     border-radius: 5px;
     transition: opacity 0.3s;
     opacity: 0;
 }
 
-.promocoes:hover .market-card-gray-cover, .limpeza:hover .market-card-gray-cover,
-.vegetais:hover .market-card-gray-cover, .carnes:hover .market-card-gray-cover,
-.bebidas:hover .market-card-gray-cover, .higiene:hover .market-card-gray-cover,
-.congelados:hover .market-card-gray-cover{
+.promocoes:hover .market-card-mask, .limpeza:hover .market-card-mask,
+.vegetais:hover .market-card-mask, .carnes:hover .market-card-mask,
+.bebidas:hover .market-card-mask, .higiene:hover .market-card-mask,
+.congelados:hover .market-card-mask{
     opacity: 1;
     transition: opacity 0.3s;
 }
@@ -117,18 +144,12 @@ html{
 .market-main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows:  repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 20px;
-    position: absolute;
-    top: 55px;
-    left: 210px;
-    height: 97vh;
-    width: 1040px;
-    padding: 0 15px;
-    margin: 15px 0;
 }
 
-.market-card{
+.market-main-card{
+    border: 3px outset wheat;
     border: 3px outset rgb(247, 224, 205);
     border-radius: 5px;
     text-align: center;
@@ -137,23 +158,25 @@ html{
     transition: transform 0.2s;
 }
 
-.market-card:hover{
+.market-main-card:hover{
     transform: scale(1.02);
     transition: transform 0.2s;
 }
 
-.market-card img{
+.market-main-card img{
     width: 100%;
     height: 90%;
 }
 
 /* Footer da Página Mercado */
 .market-footer{
-    background-color: lightgray;
+    grid-column: 1 / 3;
     display: flex;
     justify-content: center;
     gap: 50px;
-    height: 300px;
+    background-color: rgba(135, 125, 90, 0.4);
+    border-radius: 3px;
+    border: rgba(135, 125, 90, 0.5) double 4px;
 }
 
 .market-footer img{
@@ -161,18 +184,18 @@ html{
     border-radius: 5px;
 }
 
-.market-footer-gray-cover{
-    bottom: 304px;
+.market-footer-mask{
+    bottom: 296px;
     height: 100%;
     position: relative;
     opacity: 0;
-    background-color: rgba(103, 112, 107, 0.8);
+    background-color: rgba(135, 125, 90, 0.8);
     text-align: center;
     border-radius: 5px;
     transition: opacity 0.3s;
 }
 
-.promo1:hover .market-footer-gray-cover, .promo2:hover .market-footer-gray-cover{
+.promo1:hover .market-footer-mask, .promo2:hover .market-footer-mask{
     opacity: 1;
     transition: opacity 0.3s;
 }
