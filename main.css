@@ -8,14 +8,24 @@ html{
 }
 
 /* LANDING PAGE */
-.landing-logo{
-    display: flex;
+.landing-logo {
+    background-color:rgba(135, 125, 90, 0.4);
     justify-content: center;
-    background-color: #7D1107;
+    display: flex;
+    margin: 10px;
+    
 }
 
 #landing-hor-line{
     width: 100%;
+}
+.texto-sobre{
+    display:grid;
+    justify-content:space-around;
+    text-align:left;
+    font-family:"karla",sans-serif;
+    font-size:large;
+    color:#7D1107;
 }
 
 .landing-main{
@@ -40,17 +50,18 @@ html{
 .texto-main{
     display: grid;
     text-align: center;
-    font-family: cursive;
+    font-family: "karla",sans-serif;
     font-size:larger;
     color: #7D1107;
 }
 .rodape-main{
     display: flex;
     height: 50px;
-    background-color: rgb(190, 185, 185);
+    background-color:rgba(135, 125, 90, 0.4);
 }
 .texto-rodape-main{
     display: grid;
+    justify-content: center;
     text-align:center;
     font-family: cursive;
     font-size:large;
