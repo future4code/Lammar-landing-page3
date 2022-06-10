@@ -64,6 +64,11 @@ html{
     font-size:large;
     color: #7D1107;
 }
+.redes img{
+    display:inline;
+    width: 30px;
+
+}
 
 /* PÁGINA MERCADO */
 .market-page-body{
