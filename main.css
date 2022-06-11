@@ -9,13 +9,45 @@ html{
 
 /* LANDING PAGE */
 .landing-logo {
-    background-color:rgba(135, 125, 90, 0.4);
-    
+    display: flex;
+    padding-right:100% ;
+    float:left;
+   background-image:url(./img/img\ fundo.jpg)
+
+}
+.landing-logo img{
+    border-radius: 60%;
+}
+.info{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 30px;
+}
+.info ul{
+    list-style:none;
+}
+.info li{
+    display: inline;
+    float: left;
+    padding:0px;
+    margin: 0;
+    width: 80px;
+}
+.info a{
+    display:flex;
+    text-decoration:double;
+    text-align: center;
+    padding: 10px;
+    font-family:"karla", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #landing-hor-line{
     width: 100%;
 }
+
 .texto-sobre{
     display:grid;
     justify-content:space-around;
@@ -63,6 +95,11 @@ html{
     font-family: cursive;
     font-size:large;
     color: #7D1107;
+}
+.redes img{
+    display:inline;
+    width: 30px;
+
 }
 
 /* PÁGINA MERCADO */
