@@ -16,6 +16,12 @@ html{
     
 }
 
+.landing-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}    
+
 #landing-hor-line{
     width: 100%;
 }
@@ -233,4 +239,20 @@ html{
     color: white;
     font-weight: bolder;
     font-size: 40px;
+}
+
+/* Body Restaurant Section */
+
+main{
+    height: 80%;
+    border-radius: 5px;
+    padding-top: 80px;   
+    text-align: center;
+} 
+
+img{
+    border: 15px;
+    padding-top: 5px;
+    display: grid;
+    text-align: center;
 }
