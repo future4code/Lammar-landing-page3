@@ -9,7 +9,10 @@ html{
 
 /* LANDING PAGE */
 .landing-logo {
+    background-color:rgba(135, 125, 90, 0.4);
+    justify-content: center;
     display: flex;
+    margin: 10px;
     padding-right:100% ;
     float:left;
    background-image:url(./img/img\ fundo.jpg)
@@ -18,15 +21,18 @@ html{
 .landing-logo img{
     border-radius: 60%;
 }
+
 .info{
     margin: 0;
     padding: 0;
     width: auto;
     height: 30px;
 }
+
 .info ul{
     list-style:none;
 }
+
 .info li{
     display: inline;
     float: left;
@@ -34,6 +40,7 @@ html{
     margin: 0;
     width: 80px;
 }
+
 .info a{
     display:flex;
     text-decoration:double;
@@ -44,8 +51,23 @@ html{
     font-weight: bold;
 }
 
+.landing-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}    
+
 #landing-hor-line{
     width: 100%;
+}
+
+.texto-sobre{
+    display:grid;
+    justify-content:space-around;
+    text-align:left;
+    font-family:"karla",sans-serif;
+    font-size:large;
+    color:#7D1107;
 }
 
 .texto-sobre{
@@ -76,6 +98,7 @@ html{
     transform: scale(1.1);
     transition: transform 0.2s;
 }
+
 .texto-main{
     display: grid;
     text-align: center;
@@ -83,11 +106,13 @@ html{
     font-size:larger;
     color: #7D1107;
 }
+
 .rodape-main{
     display: flex;
     height: 50px;
     background-color:rgba(135, 125, 90, 0.4);
 }
+
 .texto-rodape-main{
     display: grid;
     justify-content: center;
@@ -96,6 +121,7 @@ html{
     font-size:large;
     color: #7D1107;
 }
+
 .redes img{
     display:inline;
     width: 30px;
@@ -267,4 +293,20 @@ html{
     color: white;
     font-weight: bolder;
     font-size: 40px;
+}
+
+/* Body Restaurant Section */
+
+main{
+    height: 80%;
+    border-radius: 5px;
+    padding-top: 80px;   
+    text-align: center;
+} 
+
+img{
+    border: 15px;
+    padding-top: 5px;
+    display: grid;
+    text-align: center;
 }
