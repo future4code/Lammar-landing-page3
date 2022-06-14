@@ -136,6 +136,7 @@ html{
     grid-template-columns: 200px 1fr;
     grid-template-rows: 70px 1fr 300px;
     gap: 10px;
+    background-color: rgba(135, 125, 90, 0.2);
 }
 
 /* Header da Página Mercado */
@@ -144,7 +145,7 @@ html{
     grid-row: 1 / 2;
     display: flex;
     align-items: center;
-    background-color: rgba(135, 125, 90, 0.4);
+    background-color: rgba(135, 125, 90, 0.2);
     border-radius: 3px;
     border: rgba(135, 125, 90, 0.5) double 4px;
 }
@@ -192,9 +193,11 @@ html{
 
 .market-categ-card{
     height: 145px;
+    box-shadow: 2px 2px 7px 1px rgb(135, 125, 90);
+    border-radius: 5px;
 }
 
-.market-card-mask{
+.market-categ-card-mask{
     background-color: rgba(135, 125, 90, 0.8);
     height: 100%;
     position: relative;
@@ -204,10 +207,10 @@ html{
     opacity: 0;
 }
 
-.promocoes:hover .market-card-mask, .limpeza:hover .market-card-mask,
-.vegetais:hover .market-card-mask, .carnes:hover .market-card-mask,
-.bebidas:hover .market-card-mask, .higiene:hover .market-card-mask,
-.congelados:hover .market-card-mask{
+.promocoes:hover .market-categ-card-mask, .limpeza:hover .market-categ-card-mask,
+.vegetais:hover .market-categ-card-mask, .carnes:hover .market-categ-card-mask,
+.bebidas:hover .market-categ-card-mask, .higiene:hover .market-categ-card-mask,
+.congelados:hover .market-categ-card-mask{
     opacity: 1;
     transition: opacity 0.3s;
 }
@@ -258,13 +261,24 @@ html{
     height: 90%;
 }
 
+.market-main-card p{
+    border-top: 4px double rgba(135, 125, 90, 0.4);
+    margin-top: -3px;
+    padding-top: 5px;
+    font-family: chalkduste, fantasy;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(135, 125, 90);
+    text-shadow: 1px 1px 1px rgba(135, 125, 90, 0.5);
+}
+
 /* Footer da Página Mercado */
 .market-footer{
     grid-column: 1 / 3;
     display: flex;
     justify-content: center;
     gap: 50px;
-    background-color: rgba(135, 125, 90, 0.4);
+    background-color: rgba(135, 125, 90, 0.2);
     border-radius: 3px;
     border: rgba(135, 125, 90, 0.5) double 4px;
 }
@@ -297,6 +311,8 @@ html{
     font-size: 40px;
 }
 
+
+/* PÁGINA RESTAURANTE */
 /* Body Restaurant Section */
 
 .header-restaurant-page{
