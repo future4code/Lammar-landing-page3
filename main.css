@@ -134,7 +134,7 @@ html{
 .market-page-body{
     display: grid;
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 70px 1fr 300px;
+    grid-template-rows: 70px 1fr 393px;
     gap: 10px;
     background-color: rgba(135, 125, 90, 0.2);
 }
@@ -281,6 +281,7 @@ html{
     background-color: rgba(135, 125, 90, 0.2);
     border-radius: 3px;
     border: rgba(135, 125, 90, 0.5) double 4px;
+    padding: 10px 0px;
 }
 
 .market-footer img{
@@ -289,7 +290,7 @@ html{
 }
 
 .market-footer-mask{
-    bottom: 296px;
+    bottom: 369px;
     height: 100%;
     position: relative;
     opacity: 0;
@@ -305,10 +306,10 @@ html{
 }
 
 .promotion p{
-    padding-top: 130px;
+    padding-top: 160px;
     color: white;
-    font-weight: bolder;
     font-size: 40px;
+    font-family: chalkduste, fantasy;
 }
 
 
