@@ -8,14 +8,13 @@ html{
 }
 
 /* LANDING PAGE */
-.landing-logo {
-    background-color:rgba(135, 125, 90, 0.4);
-    justify-content: center;
+
+.landing-logo{
     display: flex;
-    margin: 10px;
-    padding-right:100% ;
+    padding-right:100%;
     float:left;
-   background-image:url(./img/img\ fundo.jpg)
+    background-size:100%;
+    background-image:url(./img/img\ fundo.jpg)
 
 }
 .landing-logo img{
@@ -51,25 +50,8 @@ html{
     font-weight: bold;
 }
 
-.landing-logo img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-
-}    
-
 #landing-hor-line{
     width: 100%;
-}
-
-.texto-sobre{
-    display:grid;
-    justify-content:space-around;
-    text-align:left;
-    font-family:"karla",sans-serif;
-    font-size:large;
-    color:#7D1107;
 }
 
 .texto-sobre{
@@ -125,8 +107,8 @@ html{
 }
 
 .redes img{
-    display:inline;
-    width: 30px;
+    display:grid;
+    width: 30px;    
 
 }
 
