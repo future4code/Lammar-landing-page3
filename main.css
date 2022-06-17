@@ -35,9 +35,9 @@ html{
 .info li{
     display: inline;
     float: left;
-    padding:0px;
-    margin: 0;
-    width: 80px;
+    padding:30px;
+    margin: 0px;
+    width: 100px;
 }
 
 .info a{
@@ -56,12 +56,35 @@ html{
 }
 
 .texto-sobre{
-    display:block;
-    justify-content:flex-start;
-    text-align:left;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:10%;
+    text-align:center;
     font-family:"karla",sans-serif;
     font-size:medium;
     color:#7D1107;
+}
+
+.caixa-de-texto{
+    /* display: flex;
+    width: 30%;
+    height:30px; */
+    display: flex;
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px dashed #7D1107;
+
+}
+.botao-enviar{
+    /* width: 30%;
+    height:30px; */
+    display: flex;
+    width: 5%;
+    height: 20px;
+    margin: 0 auto;
+    color: #7D1107;
+    font-size: medium;
 }
 
 .landing-main{
@@ -98,7 +121,7 @@ html{
     background-color:rgba(135, 125, 90, 0.4);
 }
 
-.rodape-main ion-ico{
+.rodape-main ion-icon{
     font-size: 25px;
     margin-right: 20px;
    
@@ -114,7 +137,7 @@ html{
 }
 
 .redes{
-    display:inline;
+    display:flex;
 }
 .redes ion-icon{
     font-size: 200%;
@@ -399,7 +422,7 @@ html{
     background-color: rgba(135, 125, 90, 0.2);
 }
 
-.rodape-main{
+/* .rodape-main{
     display: grid;
     height: 50px;
     background-color:rgba(135, 125, 90, 0.4);
@@ -421,4 +444,4 @@ html{
     font-size: 200%;
     color: #7D1107;
     text-align: center;
-}
+} */
