@@ -48,6 +48,7 @@ html{
     font-family:"karla", sans-serif;
     font-size: 14px;
     font-weight: bold;
+    color: #7D1107;
 }
 
 #landing-hor-line{
@@ -55,11 +56,11 @@ html{
 }
 
 .texto-sobre{
-    display:grid;
-    justify-content:space-around;
+    display:block;
+    justify-content:flex-start;
     text-align:left;
     font-family:"karla",sans-serif;
-    font-size:large;
+    font-size:medium;
     color:#7D1107;
 }
 
@@ -107,15 +108,17 @@ html{
     display: grid;
     justify-content: center;
     text-align:center;
-    font-family: cursive;
+    font-family: "karla",sans-serif;
     font-size:large;
     color: #7D1107;
 }
 
-.redes img{
-    display:grid;
-    width: 30px;    
-
+.redes{
+    display:inline;
+}
+.redes ion-icon{
+    font-size: 200%;
+    color: #7D1107;
 }
 
 /* PÁGINA MERCADO */
